@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+  <link rel="icon" href="src/assets/img/favicon.ico" type="image/icon">
+  <!-- <base href="/profile"> -->
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="container">
+        <div class="header-top d-flex justify-content-between align-items-center">
+          <div class="logo"><a href="/"><img src="/src/assets/img/instagram.svg" alt="logo"></a></div>
+          <nav class="menu d-flex justify-content-between">
+            <li><a href="/" class="timeline">Лента</a></li>
+            <li><a href="/profile" class="profil">Профиль</a></li>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main-content">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="posts page">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile page">
+      <div class="container">
+        <div class="profile-page">
+          <div class="row">
+            <div class="col">
+              <div class="profile-top"></div>
+            </div>
+          </div>
+          <div class="profile-buttom">
+            <div class="row">
+              <div class="col">
+                <div class="profile-main">
+                  <div class="profile-gallery d-flex justify-content-between align-items-center flex-wrap">
+                    <!-- <div class="gallery-photo ">
+                      <img src="/src/assets/img/photo1.jpg" alt="photo1">
+                    </div>
+                    <div class="gallery-photo ">
+                      <img src="/src/assets/img/photo1.jpg" alt="photo1">
+                    </div>
+                    <div class="gallery-photo ">
+                      <img src="/src/assets/img/photo1.jpg" alt="photo1">
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="single-photo page">
+      <div class="overlay"></div>
+      <div class="preview-large">
+        <img src="" class="single-img" />
+        <p class="user-comm"></p>
+        <span class="close-photo">×</span>
+      </div>
+    </div>
+
+    <div class="modal-window page">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="modal-contant">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="register page">
+      <div class="container">
+        <div class="register-wrapper">
+          <div class="row">
+            <div class="col">
+              <h3>Войдите в аккаунт</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-registration">
+                <form action="">
+                  <div class="input-name">
+                    <label for="name">Введите ваше имя</label>
+                    <input type="text" class="name" id="name">
+                  </div>
+                  <div class="input-pass">
+                    <label for="pass">Введите ваш пароль</label>
+                    <input type="password" class="pass" id="pass">
+                  </div>
+                  <!-- <div class="input-secondpass">
+                    <label for="secondpass">Повторите ваш пароль</label>
+                    <input type="password" class="secondpass" id="secondpass" placeholder="">
+                  </div> -->
+                  <div class="buttons">
+                    <button type="button" class="signin">Войти</button>
+                  </div>
+                  <div class="msg"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-wrap d-flex flex-row align-items-center page"></div>
+    <div hidden id="spinner"></div>
+  </main>
+
+</body>
+
+</html>
